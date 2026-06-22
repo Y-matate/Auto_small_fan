@@ -83,10 +83,23 @@ graph TD;
 
 ## 4.導入方法
 
+### ソフトウェア
+
+(使用ライブラリ)　　
+
+- IRremote.hpp：IRリモコンの信号を送受信するためのライブラリ
+- U8g2lib.h：OLEDで日本語表示するためのライブラリ
+- Wire.h：OLEDをハードウェアI2Cで使うためのライブラリ
+- WiFiS3.h：WiFi通信を利用するためのライブラリ
+- ArduinoHttpClient.h：HTTP送信するためのライブラリ
+- SHA256.h：SwitchBotの署名計算に使うためのライブラリ
+- secrets.h：自身のWiFiのSSIDやパスワード、SwitchBotのデバイスID、discordのwebhooks等を管理するためのヘッダーファイル
+
+
 ### セットアップ
 
 - 1.学習リモコン
-  - ArduinoIDEのライブラリマネージャで「U8g2」をインストール
+  - ArduinoIDEのライブラリマネージャで「U8g2」「IRremote」をインストール
   - (任意)スロット名の書き換え
   - ArduinoIDEでスケッチの書き込み
   - 使いたいリモコンをボタンに登録
