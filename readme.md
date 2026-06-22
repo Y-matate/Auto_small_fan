@@ -113,7 +113,13 @@ graph TD;
 
 ![スロット画像](image-2.png)
 
+https://github.com/user-attachments/assets/bc2ef5ca-f63d-44ff-a043-87d46b1c7207
+
 - 2.スタンドライト
   - 1.作業を開始し、超音波センサーが人を検知するとdiscordに通知が行きます(ライトのonは手動)
    ![alt text](image-1.png)
   - 2.作業が終わり席を離れたことを超音波センサーが検知をするとライトが自動で消えます
+
+https://github.com/user-attachments/assets/adb2a181-f562-47d0-9f8a-5fe32b4a43d8
+
+
