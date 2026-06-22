@@ -111,6 +111,7 @@ graph TD;
   [SwitchBot APIの使い方(各IDの取得方法)](https://qiita.com/katta1024/items/6a5af91c986fe3c47f4d)
   - SwitchBotと扇風機の接続
   - [image図](image-3.png)
+  - ArduinoIDEのライブラリマネージャで「ArduinoHttpClient」をインストール
   - sketchの書き換え、書き込み
     - WiFiのSSIDとパスワード、switchbotのトークン、シークレット、デバイスID、自前のdiscordサーバーで取得したwebhooksのURL
     - 超音波センサーでの検知の距離、不在と認識するまでの時間、スパム防止の通知の最短間隔の設定
