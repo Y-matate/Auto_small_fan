@@ -138,4 +138,35 @@ https://github.com/user-attachments/assets/bc2ef5ca-f63d-44ff-a043-87d46b1c7207
 
 https://github.com/user-attachments/assets/adb2a181-f562-47d0-9f8a-5fe32b4a43d8
 
+## 6.使用ツール、参考サイト
 
+### SwitchBot API
+
+SwitchBot APIとは  
+さまざまなSwitchBotデバイスをクラウドやローカルネットワーク経由で制御できる公式インターフェース
+
+・[SwitchBot公式サイト](https://www.switchbot.jp/)  
+・[Switchbot APIの使い方～デバイスIDの取得～](https://qiita.com/katta1024/items/6a5af91c986fe3c47f4d)
+
+### discord webhook
+
+discord webhookとは  
+外部サービスから Discord チャンネルにメッセージを送信するための仕組み、Bot を作らずとも、HTTP リクエスト一発でメッセージが送れる  
+
+・[discord公式](https://discord.com/)  
+・[Discord Webhook を使いこなそう](https://zenn.dev/discorders/articles/discord-webhook-guide)  
+・[ウェブフックのご紹介](https://support.discord.com/hc/ja/articles/228383668-%E3%82%A6%E3%82%A7%E3%83%96%E3%83%95%E3%83%83%E3%82%AF%E3%81%AE%E3%81%94%E7%B4%B9%E4%BB%8B)  
+
+### Arduino IDE
+
+ArduinoIDEとは  
+Arduinoなどのマイコンボード向けに設計された統合開発環境  
+Arduinoボード用のプログラムを作成・編集・コンパイル・書き込みまで行うことができる
+
+・[Arduino公式サイト](https://www.arduino.cc/)
+
+### 参考サイト
+
+・[基本プロジェクト OLED](https://docs.sunfounder.com/projects/elite-explorer-kit/ja/latest/basic_projects/15_basic_oled.html)  
+・[基本プロジェクト 赤外線レシーバー](https://docs.sunfounder.com/projects/elite-explorer-kit/ja/latest/basic_projects/22_basic_irrecv.html)  
+・[基本プロジェクト 超音波](https://docs.sunfounder.com/projects/elite-explorer-kit/ja/latest/basic_projects/06_basic_ultrasonic_sensor.html)
