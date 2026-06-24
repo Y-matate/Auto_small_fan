@@ -104,21 +104,21 @@ graph TD;
   - ArduinoIDEでスケッチの書き込み
   - 使いたいリモコンをボタンに登録
   - 記録はシリアルモニターで確認可能
-  ![alt text](image.png)
+  ![alt text](<picture/smallfan/image.png>)
 
 - 2.スタンドライト
   - SwitchBotのトークン、シークレット、デバイスIDの取得
   [SwitchBot APIの使い方(各IDの取得方法)](https://qiita.com/katta1024/items/6a5af91c986fe3c47f4d)
   - SwitchBotと扇風機の接続
-  - [image図](image-3.png)
+  - [image図](<picture/smallfan/image-3.png>)
   - ArduinoIDEのライブラリマネージャで「ArduinoHttpClient」をインストール
   - sketchの書き換え、書き込み
     - WiFiのSSIDとパスワード、switchbotのトークン、シークレット、デバイスID、自前のdiscordサーバーで取得したwebhooksのURL
     - 超音波センサーでの検知の距離、不在と認識するまでの時間、スパム防止の通知の最短間隔の設定
     - シリアルモニターで動作確認が可能
   
-  ![alt text](<スクリーンショット 2026-06-19 152408.png>)
-  ![alt text](image-4.png)
+  ![alt text](<picture/standlight/スクリーンショット 2026-06-19 152408.png>)
+  ![alt text](<picture/standlight/image-4.png>)
 
 ## 5.使用方法
 
@@ -127,13 +127,13 @@ graph TD;
   - 2.選択ボタンでスロットを選択し、受信ボタンで記録したいリモコンのボタンを登録してください(今回であれば扇風機の赤外線リモコンのボタン。登録されるとスロットに「ok」と表示されます)
   - 3.選択ボタンで任意のスロットを選択した状態で、送信ボタンを押すことで赤外線信号が送られ扇風機が動きます
 
-![スロット画像](image-2.png)
+![スロット画像](<picture/smallfan/image-2.png>)
 
 https://github.com/user-attachments/assets/bc2ef5ca-f63d-44ff-a043-87d46b1c7207
 
 - 2.スタンドライト
   - 1.作業を開始し、超音波センサーが人を検知するとdiscordに通知が行きます(ライトのonは手動)
-   ![alt text](image-1.png)
+   ![alt text](<picture/standlight/image-1.png>)
   - 2.作業が終わり席を離れたことを超音波センサーが検知をするとライトが自動で消えます
 
 https://github.com/user-attachments/assets/adb2a181-f562-47d0-9f8a-5fe32b4a43d8
