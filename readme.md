@@ -114,6 +114,9 @@ graph TD;
   - ArduinoIDEのライブラリマネージャで「ArduinoHttpClient」をインストール
   - sketchの書き換え、書き込み
     - WiFiのSSIDとパスワード、switchbotのトークン、シークレット、デバイスID、自前のdiscordサーバーで取得したwebhooksのURL
+    - >※WiFiは2.4GHz帯のものを使用してください
+![alt text](image.png)
+
     - 超音波センサーでの検知の距離、不在と認識するまでの時間、スパム防止の通知の最短間隔の設定
     - シリアルモニターで動作確認が可能
   
